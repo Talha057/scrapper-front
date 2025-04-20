@@ -17,13 +17,16 @@ export const Hello = () => {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.get("http://localhost:5001/scrape", {
-        params: {
-          url,
-          query,
-          format: selectedOption,
-        },
-      });
+      const response = await axios.get(
+        "https://scrapper-back-production.up.railway.app/scrape",
+        {
+          params: {
+            url,
+            query,
+            format: selectedOption,
+          },
+        }
+      );
 
       const data = response.data.data;
       console.log(" ✅Response ", data);
