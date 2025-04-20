@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+.loader {
+    height: 100vh;
+    width: 100%;
+    background-color: #000000fe;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+
+
+}
+
+.loaderrow1 {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    /* position: relative; */
+    top: 35px;
+
+}
+
+.loaderrow1 h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+    position: absolute;
+    left: -80%;
+    /* color: #4c8bf5; */
+    font-size: 10rem;
+    background: rgb(12, 9, 75);
+    background: linear-gradient(90deg, rgb(17, 13, 92) 0%, rgb(26, 26, 97) 35%, rgba(0, 212, 255, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.loaderbox1 h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+    position: absolute;
+    top: -40px;
+    left: -80%;
+    /* color: #4c8bf5; */
+    font-size: 12rem;
+    background: rgb(12, 9, 75);
+    background: linear-gradient(90deg, rgb(17, 13, 92) 0%, rgb(26, 26, 97) 35%, rgba(0, 212, 255, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.loaderbox2 h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10rem;
+    background: rgb(12, 9, 75);
+    background: linear-gradient(90deg, rgb(17, 13, 92) 0%, rgb(26, 26, 97) 35%, rgba(0, 212, 255, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    right: -99%;
+    text-align: center;
+}
+
+.loaderrow2 {
+    height: 50vh;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    top: -35px;
+    right: 25px;
+}
+
+.loaderbox1 {
+    width: 50%;
+    /* border: 1px solid white; */
+    height: 100%;
+    position: relative;
+}
+
+.loaderbox2 {
+    position: relative;
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 100%;
+}
