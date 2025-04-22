@@ -18,7 +18,7 @@ export const Hello = () => {
     setIsLoading(true);
     try {
       const response = await axios.get(
-        "https://scrapper-back-production.up.railway.app/scrape",
+        "http://ec2-52-66-203-88.ap-south-1.compute.amazonaws.com:5001/scrape",
         {
           params: {
             url,
